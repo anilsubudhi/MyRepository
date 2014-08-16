@@ -1,0 +1,24 @@
+{
+    "id": "Test_template",
+    "name": "Test Scala and Lift",
+    "source": "git://github.com/CloudBees-community/lift_template.git",
+    "description" : "Lift is a highly scalable framework for web apps in scala.",
+    "icon" : "https://awesomeicon",
+    "doc-url" : "https://github.com/CloudBees-community/lift_template/blob/master/README.md",
+    "runtime": {
+        "type": "tomcat"
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "LiftDB"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven",
+            "options": {
+            }            
+        }
+    }
+}
